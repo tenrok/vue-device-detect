@@ -1,0 +1,50 @@
+{
+	"name": "@tenrok/vue-device-detect",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [
+		"browser",
+		"detect",
+		"device",
+		"mobile",
+		"phone",
+		"tablet",
+		"useragent",
+		"vue"
+	],
+	"license": "MIT",
+	"author": "",
+	"main": "dist/vue-device-detect.umd.min.js",
+	"types": "types/index.d.ts",
+	"files": [
+		"dist/vue-device-detect.*",
+		"types/*.d.ts",
+		"README.md",
+		"package.json"
+	],
+	"scripts": {
+		"build": "vue-cli-service build --target lib --name vue-device-detect lib/index.ts",
+		"lint": "vue-cli-service lint",
+		"serve": "vue-cli-service serve --open"
+	},
+	"dependencies": {
+		"ua-parser-js": "^1.0.36",
+		"vue": "^2.7.14"
+	},
+	"devDependencies": {
+		"@types/ua-parser-js": "^0.7.37",
+		"@typescript-eslint/eslint-plugin": "^5.50.0",
+		"@typescript-eslint/parser": "^5.50.0",
+		"@vue/cli-plugin-babel": "~5.0.8",
+		"@vue/cli-plugin-eslint": "~5.0.8",
+		"@vue/cli-plugin-typescript": "^5.0.8",
+		"@vue/cli-service": "^5.0.8",
+		"@vue/eslint-config-typescript": "^11.0.2",
+		"eslint": "^8.33.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-vue": "^9.17.0",
+		"prettier": "^2.8.8",
+		"typescript": "^4.9.5"
+	}
+}
