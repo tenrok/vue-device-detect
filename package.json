@@ -1,7 +1,7 @@
 {
 	"name": "@tenrok/vue-device-detect",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A device detector plugin of Vue",
 	"keywords": [
 		"browser",
 		"detect",
@@ -12,8 +12,19 @@
 		"useragent",
 		"vue"
 	],
+	"homepage": "https://github.com/tenrok/vue-device-detect",
+	"bugs": {
+		"url": "https://github.com/tenrok/vue-device-detect/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tenrok/vue-device-detect.git"
+	},
 	"license": "MIT",
-	"author": "",
+	"author": {
+		"name": "Sergey Solodyagin",
+		"url": "https://github.com/solodyagin"
+	},
 	"main": "dist/vue-device-detect.umd.min.js",
 	"types": "types/index.d.ts",
 	"files": [
@@ -23,6 +34,7 @@
 		"package.json"
 	],
 	"scripts": {
+		"demo:build": "vue-cli-service build",
 		"build": "vue-cli-service build --target lib --name vue-device-detect lib/index.ts",
 		"lint": "vue-cli-service lint",
 		"serve": "vue-cli-service serve --open"
