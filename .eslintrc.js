@@ -1,4 +1,4 @@
-const isProd = process.env.NODE_ENV === 'production'
+const isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = {
 	root: true,
@@ -11,7 +11,7 @@ module.exports = {
 	},
 	extends: ['plugin:vue/recommended', 'eslint:recommended', '@vue/typescript/recommended', 'plugin:prettier/recommended'],
 	rules: {
-		'no-console': isProd ? 'warn' : 'off',
-		'no-debugger': isProd ? 'warn' : 'off',
+		'no-console': isProduction ? 'warn' : 'off',
+		'no-debugger': isProduction ? 'warn' : 'off',
 	},
 }
