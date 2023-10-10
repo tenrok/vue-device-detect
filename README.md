@@ -1,5 +1,21 @@
 ## vue-device-detect
 
+<a target="_blank" href="https://www.npmjs.com/package/@tenrok/vue-device-detect">
+	<img src="https://img.shields.io/npm/v/@tenrok/vue-device-detect.svg" alt="Version">
+</a>
+<a target="_blank" href="https://github.com/tenrok/vue-device-detect/blob/main/LICENSE">
+	<img src="https://img.shields.io/npm/l/@tenrok/vue-device-detect.svg" alt="License">
+</a>
+<a href="https://github.com/vuejs/vue">
+  <img src="https://img.shields.io/badge/vue-2.7.14-brightgreen.svg" alt="vue">
+</a>
+<a target="_blank" href="https://github.com/tenrok/vue-device-detect">
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tenrok/vue-device-detect.svg">
+</a>
+<a target="_blank" href="https://npmcharts.com/compare/@tenrok/vue-device-detect?minimal=true">
+	<img src="https://img.shields.io/npm/dm/@tenrok/vue-device-detect.svg" alt="Downloads">
+</a>
+
 Detect device type and render content based on device type
 
 ## Quickstart
@@ -75,7 +91,9 @@ import { isMobile } from '@tenrok/vue-device-detect'
 
 ## API
 
-| prop             | type    | description                             |
+Properties:
+
+| name             | type    | description                             |
 | ---------------- | ------- | --------------------------------------- |
 | isAndroid        | boolean | The OS is `Android`                     |
 | isChrome         | boolean | Browser is `Chrome`                     |
@@ -109,7 +127,9 @@ import { isMobile } from '@tenrok/vue-device-detect'
 | isWinPhone       | boolean | The OS is `Windows Phone`               |
 | isYandex         | boolean | Browser is `Yandex Browser`             |
 
-| function       | return type | description                                                              |
+Functions:
+
+| name           | return type | description                                                              |
 | -------------- | ----------- | ------------------------------------------------------------------------ |
 | browserName    | string      | Return browser name                                                      |
 | browserVersion | string      | Return browser version                                                   |
