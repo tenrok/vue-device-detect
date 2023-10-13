@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="app">
 		<ul>
 			<li>Device Type: {{ deviceType() }}</li>
 			<li>Device: {{ deviceVendor() }} {{ deviceModel() }}</li>

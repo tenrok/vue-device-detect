@@ -1,20 +1,10 @@
 ## vue-device-detect
 
-<a target="_blank" href="https://www.npmjs.com/package/@tenrok/vue-device-detect">
-	<img src="https://img.shields.io/npm/v/@tenrok/vue-device-detect.svg" alt="Version">
-</a>
-<a target="_blank" href="https://github.com/tenrok/vue-device-detect/blob/main/LICENSE">
-	<img src="https://img.shields.io/npm/l/@tenrok/vue-device-detect.svg" alt="License">
-</a>
-<a href="https://github.com/vuejs/vue">
-  <img src="https://img.shields.io/badge/vue-2.7.14-brightgreen.svg" alt="vue">
-</a>
-<a target="_blank" href="https://github.com/tenrok/vue-device-detect">
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tenrok/vue-device-detect.svg">
-</a>
-<a target="_blank" href="https://npmcharts.com/compare/@tenrok/vue-device-detect?minimal=true">
-	<img src="https://img.shields.io/npm/dm/@tenrok/vue-device-detect.svg" alt="Downloads">
-</a>
+[![Version](https://img.shields.io/npm/v/@tenrok/vue-device-detect.svg)](https://www.npmjs.com/package/@tenrok/vue-device-detect)
+[![License](https://img.shields.io/npm/l/@tenrok/vue-device-detect.svg)](https://github.com/tenrok/vue-device-detect/blob/main/LICENSE)
+[![vue](https://img.shields.io/badge/vue-2.7.14-brightgreen.svg)](https://github.com/vuejs/vue)
+[![GitHub last commit](https://img.shields.io/github/last-commit/tenrok/vue-device-detect.svg)](https://github.com/tenrok/vue-device-detect)
+[![Downloads](https://img.shields.io/npm/dm/@tenrok/vue-device-detect.svg)](https://npmcharts.com/compare/@tenrok/vue-device-detect?minimal=true)
 
 Detect device type and render content based on device type
 
@@ -36,15 +26,16 @@ Vue.use(vueDeviceDetect)
 
 This will globally register the components `DesktopView`, `MobileView` and others and you will be able to use those right away.
 
+<!-- prettier-ignore -->
 ```html
 <template>
-	<DesktopView>
-		<h1>This is rendered only in desktop browser</h1>
-	</DesktopView>
+  <DesktopView>
+    <h1>This is rendered only in desktop browser</h1>
+  </DesktopView>
 
-	<MobileView>
-		<h1>This is rendered only on mobile</h1>
-	</MobileView>
+  <MobileView>
+    <h1>This is rendered only on mobile</h1>
+  </MobileView>
 </template>
 ```
 

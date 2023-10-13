@@ -29,9 +29,7 @@
 	"types": "types/index.d.ts",
 	"files": [
 		"dist/vue-device-detect.*",
-		"types/*.d.ts",
-		"README.md",
-		"package.json"
+		"types/*.d.ts"
 	],
 	"scripts": {
 		"demo:build": "vue-cli-service build",
