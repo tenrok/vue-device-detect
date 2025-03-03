@@ -6,6 +6,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/tenrok/vue-device-detect.svg)](https://github.com/tenrok/vue-device-detect)
 [![Downloads](https://img.shields.io/npm/dm/@tenrok/vue-device-detect.svg)](https://npmcharts.com/compare/@tenrok/vue-device-detect?minimal=true)
 
+**Are you using Vue 3?** Check out [Vue 3 Device Detect](https://github.com/tenrok/vue3-device-detect)
+
 Detect device type and render content based on device type
 
 ## Quickstart
